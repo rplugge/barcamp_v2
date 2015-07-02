@@ -182,7 +182,7 @@ body {
   border-bottom: dashed;
   border-color: #6b797f;
   width: 100%;
-  border-size: 3px;
+  border-width: 3px;
   margin: 50px 0;
 }
 
@@ -204,7 +204,11 @@ body {
   font-family: "proxima-nova", Arial, sans-serif;
   margin-bottom: 80px;
   text-align: center;
-  border-bottom: ;
+  border-bottom: 1px solid black;
+}
+
+.last {
+  border: none;
 }
 
 .topics h4{
@@ -221,3 +225,4 @@ body {
 .topics img {
   width: 50%;
 }
+

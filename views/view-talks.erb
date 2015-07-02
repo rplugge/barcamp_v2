@@ -1,48 +1,45 @@
 <% talk_categories = [
-{"title" => "Entreprenuer", "image" => "/assets/b2.png", 
-  "info" => ["Marketing Your iOS App", "Bird Watching for fun and profit", "Competitive Intelligence on a Shoestring", "How to get Venture Capital", "Fostering a Co-working Environment"]}, 
-{"title" => "Creative", "image" => "/assets/b3.png", 
-  "info" => ["Creative Problem Solving", "How to Make the Perfect Paper Snowflake", "Design for Mobile Devices", "Plumbing Metaphors can Improve Your Interfaces", "Photography Lighting Basics"]}, 
-{"title" => "Technology", "image" => "/assets/b1.png", 
-  "info" => ["CSS3 and the Future of Design", "How to Wrangle WordPress", "HTML5 and the Modern Browser", "iPhone, Me, and My Drone", "Hardware is the New Geocities"]}, 
-{"title" => "Kitchen Sink", "image" => "/assets/b4.png", 
-  "info" => ["Squirrel Trapping and More", "How to Chop Wood like a Pro", "Teenage Globetrotting", "Making the Best Cup of Coffee", "Down a Rabbit Hole of Cool Science"]}  
+        {"title" => "Entreprenuer", "image" => "/assets/b2.png",
+         "info" => ["Marketing Your iOS App", "Bird Watching for fun and profit", "Competitive Intelligence on a Shoestring", "How to get Venture Capital", "Fostering a Co-working Environment"]},
+        {"title" => "Creative", "image" => "/assets/b3.png",
+         "info" => ["Creative Problem Solving", "How to Make the Perfect Paper Snowflake", "Design for Mobile Devices", "Plumbing Metaphors can Improve Your Interfaces", "Photography Lighting Basics"]},
+        {"title" => "Technology", "image" => "/assets/b1.png",
+         "info" => ["CSS3 and the Future of Design", "How to Wrangle WordPress", "HTML5 and the Modern Browser", "iPhone, Me, and My Drone", "Hardware is the New Geocities"]},
+        {"title" => "Kitchen Sink", "image" => "/assets/b4.png",
+         "info" => ["Squirrel Trapping and More", "How to Chop Wood like a Pro", "Teenage Globetrotting", "Making the Best Cup of Coffee", "Down a Rabbit Hole of Cool Science"]}
 ] %>
 
 
 
 <% x = 1 %>
 <% last_topic = talk_categories.last %>
-<% while x != talk_categories.length do %>
 
-  <% talk_categories.each do |hash| %>
+<% talk_categories.each do |hash| %>
+  <% if x != talk_categories.length %>
     <div class="topics">
       <h4><%= hash["title"] %></h4>
-          
+
       <img src= <%= hash["image"] %> alt= <%= hash["title"] %>>
-      
-      <ul>    
+
+      <ul>
         <% hash["info"].each do |info| %>
-          <li><%= info %></li>
+            <li><%= info %></li>
         <% end %>
       </ul>
-      
     </div>
-    
     <% x += 1 %>
   <% end %>
-<% end %> 
+<% end %>
 
 <div class="topics last">
   <h4><%= last_topic["title"] %></h4>
-      
+
   <img src= <%= last_topic["image"] %> alt= <%= last_topic["title"] %>>
-    
-  <% last_topic["info"].each do |info| %>
-  <ul>
-    <li><%= info %></li>
-  </ul>
-  <% end %>
+
+      <ul>
+        <% last_topic["info"].each do |info| %>
+          <li><%= info %></li>
+        <% end %>
+      </ul>
 </div>
 
-  
