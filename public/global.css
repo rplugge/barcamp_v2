@@ -200,7 +200,24 @@ body {
   color: #394B63;
 }
 
+.topics {
+  font-family: "proxima-nova", Arial, sans-serif;
+  margin-bottom: 80px;
+  text-align: center;
+  border-bottom: ;
+}
 
+.topics h4{
+  color: #6C9F2D;
+  font-size: 20px;
+}
 
+.topics ul {
+  color: #6C5029;
+  list-style-type: none;
+  padding: 0;
+}
 
-
+.topics img {
+  width: 50%;
+}

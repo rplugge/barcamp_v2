@@ -11,20 +11,38 @@
 
 
 
-<% talk_categories.each do |hash| %>
+<% x = 1 %>
+<% last_topic = talk_categories.last %>
+<% while x != talk_categories.length do %>
 
-  <div class="topics">
-    <h4><%= hash["title"] %></h4>
-        
-    <img src= <%= hash["image"] %> alt= <%= hash["title"] %>>
+  <% talk_categories.each do |hash| %>
+    <div class="topics">
+      <h4><%= hash["title"] %></h4>
+          
+      <img src= <%= hash["image"] %> alt= <%= hash["title"] %>>
       
-    <% hash["info"].each do |info| %>
-    <ul>
-      <li><%= info %></li>
-    </ul>
-    <% end %>
-  
-  </div>
-  
-<% end %>
+      <ul>    
+        <% hash["info"].each do |info| %>
+          <li><%= info %></li>
+        <% end %>
+      </ul>
+      
+    </div>
+    
+    <% x += 1 %>
+  <% end %>
+<% end %> 
+
+<div class="topics last">
+  <h4><%= last_topic["title"] %></h4>
+      
+  <img src= <%= last_topic["image"] %> alt= <%= last_topic["title"] %>>
+    
+  <% last_topic["info"].each do |info| %>
+  <ul>
+    <li><%= info %></li>
+  </ul>
+  <% end %>
+</div>
+
   
