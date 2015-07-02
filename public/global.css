@@ -1,0 +1,150 @@
+body {
+  font-family: 'Rokkitt', serif;
+}
+
+#front_banner {
+  background-color: #2c4947;
+  width: 100%;
+}
+
+#front_banner img {
+  width:150px;  
+  height: auto;
+  position: relative; 
+  top: 3px;
+  left: 5%;
+}
+
+#front_flyer {
+  position: relative;
+  overflow: hidden;
+  color: #354961;
+}
+
+#mountains {
+  background-image: url("/assets/mountains.jpg");
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+
+#Barcamp_2014 {
+  position: absolute;
+  width: 200px;
+  top: 8%;
+  left: 50%;
+  margin-left: -100px;
+  z-index: 1;
+}
+
+#lake {
+  position: absolute;
+  width: 700px;
+  top: 15%;
+  left: 50%;
+  margin-left: -350px;  
+}
+
+#trees {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  left: 50%;
+  margin-left: -404px;
+}
+
+#front_flyer h2 {
+  position: absolute;
+  left: 50%;
+  margin-left: -48px;
+  top: 69%;
+  z-index: 2;
+}
+
+#date {
+  position: absolute;
+  width: 150px;
+  top: 85%;
+  left: 50%;
+  margin-left: -75px;
+}
+
+#front_flyer p {
+  position: absolute;
+  left: 50%;
+  margin-left: -71px;
+  top: 76%;
+  z-index: 2;
+  font-size: 20px;
+}
+
+#front_flyer h1 {
+  position: absolute;
+  left: 50%;
+  margin-left: -47px;
+  top: 69%;
+  z-index: 2;
+}
+
+#front_footer {
+  background-color: #43504C;
+}
+
+#front_footer img {
+  width: 200px;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+}
+
+#front_register {
+  position: relative;
+  top: 60px;
+}
+
+#button_background {
+  width: 347px;
+  position: relative;
+  left: 50%;
+  margin-left: -173.5px;
+}
+
+#front_register_button {
+  width: 120px;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 18px;
+  background: #6C9F2D;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  
+  position: absolute;
+  left: 50%;
+  margin-left: -85px;
+  top: 20px;
+}
+
+#front_bird {
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -24.5px;
+}
+
+#front_button h1 {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  font-size: 55px;
+  margin-left: -37.5px;
+  color: #6C9F2D;
+}
+
+.d-sign {
+  font-size: 27px;
+  vertical-align: text-top;
+  position: relative;
+  top: 9px;
+}
