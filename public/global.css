@@ -1,4 +1,4 @@
-/*          General           */
+/*          Text Color Size etc           */
 body {
   font-family: 'Rokkitt', serif;
 }
@@ -6,6 +6,20 @@ body {
 .front_banner {
   background-color: #2c4947;
   width: 100%;
+}
+
+
+.front_info h1 {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+
+.front_info p {
+  color: #6b797f;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 
@@ -105,7 +119,15 @@ body {
 
 .front_register {
   position: relative;
-  margin-top: 60px;
+  margin: 60px 5%;
+}
+
+
+
+
+.front_info {
+  color: #394B63;
+  margin: 0 5%;
 }
 
 .button_background {
@@ -154,3 +176,24 @@ body {
   position: relative;
   top: 9px;
 }
+
+
+
+.break {
+  border-bottom: dashed;
+  border-color: #6b797f;
+  width: 100%;
+  border-size: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
