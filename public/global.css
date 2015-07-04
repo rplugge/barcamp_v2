@@ -28,9 +28,9 @@ body {
 
 
 .front_banner img {
-  width:150px;  
+  width:150px;
   height: auto;
-  position: relative; 
+  position: relative;
   top: 3px;
   left: 5%;
 }
@@ -62,7 +62,7 @@ body {
   width: 700px;
   top: 15%;
   left: 50%;
-  margin-left: -350px;  
+  margin-left: -350px;
 }
 
 .trees {
@@ -145,7 +145,7 @@ body {
   padding: 15px 25px 15px 25px;
   text-decoration: none;
   font-weight: bold;
-  
+
   position: absolute;
   left: 50%;
   margin-left: -85px;
@@ -225,4 +225,127 @@ body {
 .topics img {
   width: 50%;
 }
+
+.event_schedule {
+  background-image: url("/assets/board.jpg");
+  text-align: center;
+}
+
+#schedule_image {
+  display: block;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.change_width {
+  margin-left: auto;
+  margin-right: auto;
+  width: 92%;
+}
+
+.date_header h1 {
+  color: #EDC542;
+  font-size: 47px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.date_header h4 {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: normal;
+  padding-bottom: 6px;
+}
+
+.circle {
+  width:70px;
+  height:70px;
+  border-radius:50px;
+  color:#fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  padding: 8px;
+  padding: 4px;
+
+  border: 3px solid #eb5b33;
+}
+
+.circle h1 {
+  font-size: 44px;
+  margin: 0px;
+}
+
+.circle h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: normal;
+  position: relative;
+  bottom: 5px;
+
+}
+
+.event {
+  padding-bottom: 30px;
+}
+
+.event_info {
+  color: white;
+}
+
+.event_info h1 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.event_info p {
+  line-height: 23px;
+}
+
+
+
+
+.fire{
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.faq {
+  text-align: center;
+  background-color: #CAECF8;
+}
+
+.faq #tower {
+  width: 100%;
+}
+
+
+ul.no_bullet {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+
+li.plus {
+  margin: 10px;
+  background: url("/assets/plus.png") no-repeat left top;
+  background-size: contain;
+  padding-left: 44px;
+  font-size: 24px;
+  color: #754C30;
+  font-weight: bold;
+}
+
+
+
+
 
