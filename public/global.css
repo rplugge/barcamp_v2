@@ -349,3 +349,65 @@ li.plus {
 
 
 
+.register-bottom {
+  background-image: url("/assets/footer.png");
+  height: 1000px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position-y: -250px;
+  bottom: 5px;
+}
+
+
+.sign-post {
+  text-align: center;
+  position: relative;
+
+}
+
+
+.sign-post img {
+  width: 180px;
+  position: absolute;
+  top: 503px;
+  z-index: 10;
+  left: 50%;
+  margin-left: -90px;
+
+}
+
+.hill-front {
+  text-align: center;
+  position: relative;
+}
+
+.hill-front img {
+  position: absolute;
+  width: 1000px;
+  top: 540px;
+  left: 50%;
+  margin-left: -500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
